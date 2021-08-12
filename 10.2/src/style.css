@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato/Lato-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato/Lato-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+body,
+html {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 90px 0 0;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+h1 {
+    font-size: 34px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    font-style: normal;
+}
+
+hr {
+   width: 40px;
+   text-align: center;
+   margin: 0 auto 40px;
+}
+
+p {
+    width: 570px;
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    margin: 0 auto 60px;
+    font-style: normal;
+}
+
+.row {
+    margin: 0;
+}
+
+.fa-twitter{
+    border: 1px solid #6bbcce;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #6bbcce;
+    color: white;
+}
+
+.fa-facebook-f {
+    border: 1px solid #6bbcce;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #6bbcce;
+    color: white;
+}
+
+.fa-google {
+    border: 1px solid #6bbcce;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #6bbcce;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    text-align: center;
+    padding: 110px 0;
+    margin-bottom: 25px;
+    width: 260px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #282528;
+    font-weight: 700;
+    font-family: "Lato";
+    margin: 0;
+    font-style: normal;
+}
+
+span {
+    font-size: 18px;
+    color: #282528;
+    font-family: "Lato";
+    margin: 0;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.photo {
+    margin-bottom: 25px;
+    width: 260px;
+}
+
+.icons:hover {
+    background-color: #2ca8c5;
+    transform: scale(1.2);
+}
+
+.col {
+    padding: 0;
+}
+
+.photo:hover {
+    background-color: #2ca8c5;
+    transform: scale(1.2);
+}
